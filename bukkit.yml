@@ -48,3 +48,13 @@ world-settings:
     enabled: true
   nether:
     enabled: true
+  promised:
+    enabled: true
+  twilightforest:
+    enabled: true
+  scl:
+    enabled: true
+  underdark:
+    enabled: true
+  limbo:
+    enabled: true

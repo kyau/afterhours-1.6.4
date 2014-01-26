@@ -10,11 +10,13 @@ plugins/*.jar
 plugins/*.zip
 mcpc-plus-*.jar
 # Do not push logs to github
+crash-reports/
 ForgeModLoader-server-*
-server.log
+*.log
 # Do not push white-list/ops-list to github
 white-list.txt
 ops.txt
 # Miscellaneous
+hats/
 banned*.txt
 test-server

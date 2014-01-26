@@ -74,6 +74,29 @@ world-settings:
   default:
     infinite-water-source: true
     flowing-lava-decay: false
+    worldgen-Metallurgy3Base-OreInfo: true
+    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
+    worldgen-Agriculture-WorldGenSpice: true
+    worldgen-CoFHWorld-WorldHandler: true
+    worldgen-ATG-ATGWorldGenCliffs: true
+    worldgen-Natura-BaseCloudWorldgen: true
+    worldgen-Natura-BaseTreeWorldgen: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-Agriculture-WorldGenSalt: true
+    worldgen-MagicBees-WorldGeneratorHandler: true
+    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
+    worldgen-Natura-BaseCropWorldgen: true
+    worldgen-AppliedEnergistics-AppEng: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-Chisel-MarbleWorldGenerator: true
+    worldgen-IC2-IC2: true
+    worldgen-ATG-ATGWorldGenRocks: true
+    worldgen-arsmagica2-AM2WorldDecorator: true
+    worldgen-dimdoors-GatewayGenerator: true
+    worldgen-MineFactoryReloaded-MineFactoryReloadedWorldGen: true
+    worldgen-ProjRedExploration-GenerationManager: true
 fake-players:
   do-login: false
 debug:
@@ -81,11 +104,206 @@ debug:
 plugin-settings:
   default:
     remap-plugin-file: false
+    custom-class-loader: true
+    debug: false
+    use-guava10: true
+    remap-nms-v1_6_R3: true
+    remap-nms-v1_6_R2: true
+    remap-nms-v1_6_R1: true
+    remap-nms-v1_5_R3: true
+    remap-nms-v1_5_R2: true
+    remap-nms-v1_5_R1: true
+    remap-nms-v1_4_R1: true
+    remap-nms-v1_4_6: true
+    remap-nms-pre: 'false'
+    remap-obc-v1_6_R3: false
+    remap-obc-v1_6_R2: false
+    remap-obc-v1_6_R1: false
+    remap-obc-v1_5_R3: true
+    remap-obc-v1_5_R2: true
+    remap-obc-v1_5_R1: true
+    remap-obc-v1_4_R1: false
+    remap-obc-v1_4_6: false
+    remap-obc-pre: false
+    global-inheritance: true
+    plugin-inheritance: true
+    remap-reflect-field: true
+    remap-reflect-class: true
+    remap-allow-future: false
 config-version: 1
+tick-intervals:
+  universalelectricity:
+    core:
+      net:
+        NetworkTickHandler: 1
+  ic2:
+    core:
+      IC2: 1
+  am2:
+    proxy:
+      tick:
+        ServerTickHandler: 1
+  forestry:
+    mail:
+      TickHandlerMailClient: 1
+    core:
+      TickHandlerCoreServer: 1
+  factorization:
+    common:
+      Registry: 1
+    misc:
+      MiscellaneousNonsense: 1
+      Embarkener: 1
+  thaumcraft:
+    common:
+      lib:
+        WorldTicker: 1
+  mods:
+    railcraft:
+      common:
+        plugins:
+          forestry:
+            IceManTickHandler: 1
+  gravisuite:
+    ServerTickHandler: 1
+  mrtjp:
+    projectred:
+      core:
+        RetroactiveWorldGenerator: 1
+        PRVersionChecker: 1
+  com:
+    dmillerw:
+      remoteIO:
+        core:
+          tracker:
+            BlockTracker: 1
+    teammetallurgy:
+      agriculture:
+        TickHandler: 1
+  codechicken:
+    nei:
+      ServerHandler: 1
+    chunkloader:
+      ChunkLoaderEventHandler: 1
+    enderstorage:
+      storage:
+        liquid:
+          TankSynchroniser: 1
+    wirelessredstone:
+      core:
+        WRCoreEventHandler: 1
+      addons:
+        WRAddonEventHandler: 1
+    multipart:
+      handler:
+        MultipartEventHandler$: 1
+    lib:
+      world:
+        WorldExtensionManager$WorldExtensionServerTickHandler: 1
+  appeng:
+    sided:
+      AEGenericTick: 1
+    common:
+      grid:
+        MEGridEvents: 1
+  dan200:
+    computer:
+      shared:
+        ComputerCraftProxyCommon$ForgeHandlers: 1
+  StevenDimDoors:
+    mod_pocketDimClient:
+      ClientTickHandler: 1
+    mod_pocketDim:
+      ticking:
+        CommonTickHandler: 1
+  logisticspipes:
+    ticks:
+      WorldTickHandler: 1
+      QueuedTasks: 1
+      ServerPacketBufferHandlerThread$ServerDecompressorThread$1: 1
+      DebugGuiTickHandler: 1
+  gravigun:
+    common:
+      core:
+        TickHandlerServer: 1
+  hats:
+    common:
+      core:
+        TickHandlerServer: 1
+  mcp:
+    mobius:
+      betterbarrels:
+        server:
+          BarrelServerTickHandler: 1
+  magicbees:
+    world:
+      WorldTicker: 1
+  net:
+    machinemuse:
+      powersuits:
+        tick:
+          PlayerTickHandler: 1
+  openperipheral:
+    TickHandler: 1
+  openblocks:
+    common:
+      ServerTickHandler: 1
+  portalgun:
+    common:
+      core:
+        TickHandlerServer: 1
+  andrew:
+    powersuits:
+      tick:
+        CommonTickHandler: 1
+  vswe:
+    stevescarts:
+      Listeners:
+        TickListener: 1
+  xk:
+    xact:
+      network:
+        GuiTickHandler: 1
+  buildcraft:
+    core:
+      TickHandlerCoreClient: 1
+  thermalexpansion:
+    part:
+      conduit:
+        GridTickHandler: 1
+  biomesoplenty:
+    handlers:
+      TickHandlerClient: 1
+      TickHandlerServer: 1
+  extrautils:
+    worldgen:
+      DarknessTickHandler: 1
+  denoflionsx:
+    denLib:
+      Mod:
+        Handlers:
+          TickHandler:
+            UpdaterMessage: 1
 world-environment-settings:
   normal:
     keep-world-loaded: true
   nether:
     keep-world-loaded: true
   the_end:
+    keep-world-loaded: false
+  myst:
+    keep-world-loaded: false
+  scl:
+    keep-world-loaded: false
+  storage:
+    keep-world-loaded: false
+  promised:
+    keep-world-loaded: false
+  pocket:
+    keep-world-loaded: false
+  limbo:
+    keep-world-loaded: false
+  underdark:
+    keep-world-loaded: false
+  twilightforest:
     keep-world-loaded: false
