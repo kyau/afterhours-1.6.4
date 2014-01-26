@@ -1,3 +1,5 @@
+# Do not push world files to github
+afterhours/
 # Do not push libraries, mcpc+, mods or plugins to github
 libraries/
 mods/*.jar
@@ -14,4 +16,5 @@ server.log
 white-list.txt
 ops.txt
 # Miscellaneous
+banned*.txt
 test-server

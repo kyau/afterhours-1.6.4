@@ -54,7 +54,7 @@ logging:
   disabled-warnings: false
   entity-death: false
   dump-threads-on-warn: false
-  entity-speed-removal: false
+  entity-speed-removal: true
   entity-spawn: false
   tick-intervals: false
   entity-despawn: false
@@ -62,13 +62,13 @@ logging:
 settings:
   override-tile-ticks: false
   dump-materials: false
-  entity-bounding-box-max-size: 1000
+  entity-bounding-box-max-size: 100
   chunk-gc-grace-period: 0
   load-chunk-on-forge-tick: false
-  check-entity-max-speeds: false
+  check-entity-max-speeds: true
   load-chunk-async: true
-  entity-max-speed: 100
-  check-entity-bounding-boxes: false
+  entity-max-speed: 50
+  check-entity-bounding-boxes: true
   load-chunk-on-request: true
 world-settings:
   default:
@@ -82,3 +82,10 @@ plugin-settings:
   default:
     remap-plugin-file: false
 config-version: 1
+world-environment-settings:
+  normal:
+    keep-world-loaded: true
+  nether:
+    keep-world-loaded: true
+  the_end:
+    keep-world-loaded: false
