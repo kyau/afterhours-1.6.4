@@ -12,8 +12,6 @@
 
 config-version: 3
 settings:
-  log-filters:
-  - ^(.*)(/login)(.*)$
   bungeecord-addresses:
   - 127.0.0.1
   bungeecord: true
@@ -21,6 +19,8 @@ settings:
   timeout-time: 60
   restart-on-crash: false
   restart-script: ./start.sh
+  log-filters:
+  - ^(.*)(/login)(.*)$
   netty-threads: 3
 commands:
   spam-exclusions:
@@ -40,12 +40,6 @@ messages:
 world-settings:
   default:
     verbose: false
-    entity-tracking-range:
-      players: 48
-      animals: 48
-      monsters: 48
-      misc: 32
-      other: 64
     mob-spawn-range: 4
     growth:
       cactus-modifier: 100
@@ -82,10 +76,16 @@ world-settings:
       - 82
       - 129
       - 130
-    arrow-despawn-rate: 1200
+    entity-tracking-range:
+      players: 48
+      animals: 48
+      monsters: 48
+      misc: 32
+      other: 64
     item-despawn-rate: 6000
     merge-radius:
       item: 2.5
       exp: 3.0
+    arrow-despawn-rate: 1200
     chunks-per-tick: 650
     view-distance: 10
