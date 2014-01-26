@@ -1,9 +1,17 @@
+# Do not push libraries, mcpc+, mods or plugins to github
 libraries/
-mods/
-plugins/
-ForgeModLoader-server-*
+mods/*.jar
+mods/*.zip
+mods/*/*.jar
+mods/*/*.zip
+plugins/*.jar
+plugins/*.zip
 mcpc-plus-*.jar
+# Do not push logs to github
+ForgeModLoader-server-*
 server.log
+# Do not push white-list/ops-list to github
 white-list.txt
 ops.txt
+# Miscellaneous
 test-server
