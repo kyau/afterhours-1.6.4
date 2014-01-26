@@ -1,0 +1,9 @@
+libraries/
+mods/
+plugins/
+ForgeModLoader-server-*
+mcpc-plus-*.jar
+server.log
+white-list.txt
+ops.txt
+test-server
