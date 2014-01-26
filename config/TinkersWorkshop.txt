@@ -118,7 +118,7 @@ block {
     B:"Craft metals with Wood Patterns"=false
     B:"Craft vanilla metal blocks"=true
     B:"Deny creation of non-metal mattocks"=false
-    B:"Enable Auto-Smelt and Fortune interaction"=true
+    B:"Enable Auto-Smelt and Fortune interaction"=false
     B:"Enable mod blue slime tools"=true
     B:"Enable mod bone tools"=true
     B:"Enable mod cactus tools"=true
@@ -128,8 +128,8 @@ block {
     B:"Enable mod slime tools"=true
     B:"Enable mod stone tools"=true
     B:"Enable mod wooden tools"=true
-    B:"Keep hunger on death"=true
-    B:"Keep levels on death"=true
+    B:"Keep hunger on death"=false
+    B:"Keep levels on death"=false
     B:"Lower bronze output to 2 ingots"=false
     B:"Modifiers increase Mining Level"=true
     B:"Remove Vanilla Tool Recipes"=false
