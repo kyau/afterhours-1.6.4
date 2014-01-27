@@ -1,0 +1,6 @@
+&0&0&1&2&3&4&5&6&7&e&f
+&fAfter&bHours&8 Test v0.3-201401271245
+&f &r
+&7Mumble&8:&7 mumble://dark.kyau.net/?version=1.2.0&r
+&7Website&8:&7 http://kyau.net/afterhours/&r
+&rThere are &a{ONLINE}&r player(s) online
