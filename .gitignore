@@ -21,3 +21,5 @@ ops.txt
 hats/
 banned*.txt
 test-server
+mcpc.yml
+spigot.yml
