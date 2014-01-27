@@ -74,29 +74,31 @@ world-settings:
   default:
     infinite-water-source: true
     flowing-lava-decay: false
-    worldgen-Metallurgy3Base-OreInfo: true
-    worldgen-IC2-IC2: true
-    worldgen-Agriculture-WorldGenSpice: true
-    worldgen-AppliedEnergistics-AppEng: true
-    worldgen-dimdoors-GatewayGenerator: true
+    worldgen-Metallurgy3Base-WorldGenMetals: true
+    worldgen-CoFHWorld-WorldHandler: true
+    worldgen-Chisel-MarbleWorldGenerator: true
+    worldgen-ProjRedExploration-GenerationManager: true
+    worldgen-Natura-BaseTreeWorldgen: true
+    worldgen-MagicBees-WorldGeneratorHandler: true
     worldgen-ATG-ATGWorldGenCliffs: true
+    worldgen-Agriculture-WorldGenSpice: true
+    worldgen-IC2-IC2: true
+    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-arsmagica2-AM2WorldDecorator: true
+    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
+    worldgen-ATG-ATGWorldGenRocks: true
+    worldgen-AppliedEnergistics-AppEng: true
+    worldgen-Natura-BaseCropWorldgen: true
+    worldgen-MineFactoryReloaded-MineFactoryReloadedWorldGen: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
     worldgen-TConstruct-SlimeIslandGen: true
     worldgen-Natura-BaseCloudWorldgen: true
-    worldgen-Natura-BaseTreeWorldgen: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
-    worldgen-Forestry-WorldGenerator: true
-    worldgen-Natura-BaseCropWorldgen: true
-    worldgen-CoFHWorld-WorldHandler: true
-    worldgen-arsmagica2-AM2WorldDecorator: true
-    worldgen-Chisel-MarbleWorldGenerator: true
-    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
-    worldgen-ATG-ATGWorldGenRocks: true
-    worldgen-MagicBees-WorldGeneratorHandler: true
     worldgen-Agriculture-WorldGenSalt: true
-    worldgen-MineFactoryReloaded-MineFactoryReloadedWorldGen: true
-    worldgen-ProjRedExploration-GenerationManager: true
-    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-dimdoors-GatewayGenerator: true
+    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
+    despawn-immediate: true
+    worldgen-Metallurgy3Base-OreInfo: true
 fake-players:
   do-login: false
 debug:
