@@ -17,11 +17,11 @@ commands:
   log: true
   tab-complete: true
 settings:
-  log-filters:
-  - ^(.*)(/login)(.*)$
   bungeecord-addresses:
   - 127.0.0.1
   bungeecord: true
+  log-filters:
+  - ^(.*)(/login)(.*)$
   prevent-proxies: false
   timeout-time: 60
   restart-on-crash: false
@@ -82,10 +82,10 @@ world-settings:
       hopper-check: 8
     random-light-updates: false
     save-mineshaft-structure-info: false
-    arrow-despawn-rate: 1200
-    item-despawn-rate: 6000
     merge-radius:
-      item: 2.5
       exp: 3.0
-    view-distance: 10
+      item: 2.5
     chunks-per-tick: 650
+    view-distance: 10
+    item-despawn-rate: 6000
+    arrow-despawn-rate: 1200
