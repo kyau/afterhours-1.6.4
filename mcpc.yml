@@ -75,28 +75,28 @@ world-settings:
     infinite-water-source: true
     flowing-lava-decay: false
     worldgen-Metallurgy3Base-OreInfo: true
+    worldgen-IC2-IC2: true
+    worldgen-Agriculture-WorldGenSpice: true
+    worldgen-AppliedEnergistics-AppEng: true
+    worldgen-dimdoors-GatewayGenerator: true
+    worldgen-ATG-ATGWorldGenCliffs: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-Natura-BaseCloudWorldgen: true
+    worldgen-Natura-BaseTreeWorldgen: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-Natura-BaseCropWorldgen: true
     worldgen-CoFHWorld-WorldHandler: true
     worldgen-arsmagica2-AM2WorldDecorator: true
-    worldgen-dimdoors-GatewayGenerator: true
-    worldgen-Agriculture-WorldGenSalt: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-ATG-ATGWorldGenCliffs: true
-    worldgen-ATG-ATGWorldGenRocks: true
     worldgen-Chisel-MarbleWorldGenerator: true
-    worldgen-Agriculture-WorldGenSpice: true
+    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
+    worldgen-ATG-ATGWorldGenRocks: true
     worldgen-MagicBees-WorldGeneratorHandler: true
-    worldgen-Natura-BaseCropWorldgen: true
-    worldgen-AppliedEnergistics-AppEng: true
+    worldgen-Agriculture-WorldGenSalt: true
+    worldgen-MineFactoryReloaded-MineFactoryReloadedWorldGen: true
     worldgen-ProjRedExploration-GenerationManager: true
     worldgen-ExtraBees-ModuleGeneration: true
-    worldgen-Thaumcraft-ThaumcraftWorldGenerator: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-Forestry-WorldGenerator: true
-    worldgen-IC2-IC2: true
-    worldgen-MineFactoryReloaded-MineFactoryReloadedWorldGen: true
-    worldgen-Natura-BaseTreeWorldgen: true
-    worldgen-ATG-ATGWorldGenHighAltitudePockets: true
-    worldgen-Natura-BaseCloudWorldgen: true
 fake-players:
   do-login: false
 debug:

@@ -13,6 +13,7 @@ mcpc-plus-*.jar
 crash-reports/
 ForgeModLoader-server-*
 *.log
+*.log.lck
 # Do not push white-list/ops-list to github
 white-list.txt
 ops.txt
