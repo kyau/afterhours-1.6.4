@@ -1,0 +1,86 @@
+Plugin:
+  Updates:
+    AutoVersionCheck: false
+    AutoDownload: false
+Event:
+  Join:
+    Enable: true
+    Message: '&8[ &e&l**&r &8] &3%player&r joined the game!'
+  Quit:
+    Enable: true
+    Message: '&8[ &e&l**&r &8] &3%player&r left the game!'
+  Whitelist:
+    Enable: false
+    Message: '&6You are not on the Whitelist!'
+  ServerFull:
+    Enable: false
+    Message: '&1Sorry. &6The Server is full, try &4127.0.0.1&6!'
+Command:
+  Say:
+    Enable: false
+    Message: '&7<&r%player&7>&r %message'
+  Me:
+    Enable: true
+    Message: '[ &e&l**&r ] &3%player&r%message'
+  Plugins:
+    Enable: false
+    Message: '&4Only &lAdmins&r&4 can see the Plugins!'
+  Version:
+    Enable: false
+    Message: 'Version: &6MyServer 2.0!'
+  Seed:
+    Enable: false
+    Message: '&fYou &4dont have Permissions&r to see the Seed!'
+DeathMessages:
+  Enable: true
+  Messages:
+    Drowned: '&6%player &9drowned'
+    Slain:
+      Pigman: '&6%player &9was slain by Zombie Pigman'
+      Zombie: '&6%player &9was slain by Zombie'
+      Spider: '&6%player &9was slain by Spider'
+      Silverfish: '&6%player &9was slain by Silverfish'
+      Slime: '&6%player &9was slain by Slime'
+      MagmaCube: '&6%player &9was slain by Magma Cube'
+      Enderman: '&6%player &9was slain by Enderman'
+      EnderDragon: '&6%player &9was slain by EnderDragon'
+      CaveSpider: '&6%player &9was slain by CaveSpider'
+      IronGolem: '&6%player &9was slain by IronGolem'
+      Wolf: '&6%player &9was slain by Wolf'
+      Giant: '&6%player &9was slain by Giant'
+      Wither: '&6%player &9was slain by Wither'
+      Skeleton: '&6%player &9was shot by Skeleton'
+      Blaze: '&6%player &9was fireballed by Blaze'
+      Ghast: '&6%player &9was fireballed by Ghast'
+      Witch: '&6%player &9was slain by Witch'
+      WitherSkeleton: '&6%player &9was slain by WitherSkeleton'
+      HitTheGround: '&6%player &9hit the ground too hard'
+      Void: '&6%player &9fell out of the world'
+      SwimLava: '&6%player &9tried to swim in lava'
+      WentFlames: '&6%player &9went up in flames'
+      BurnedDeath: '&6%player &9burned to death'
+      BlewUp: '&6%player &9blew up'
+      Magic: '&6%player &9was killed by magic'
+      Suffocated: '&6%player &9suffocated in a wall'
+      Pricked: '&6%player &9was pricked to death'
+      Starved: '&6%player &9starved to death'
+      ShotArrow: '&6%player &9was shot by arrow'
+      Withered: '&6%player &9withered away'
+      Died: '&6%player &9died'
+      HurtSkeleton: '&6%player &9was killed while trying to hurt Skeleton'
+      HurtZombie: '&6%player &9was killed while trying to hurt Zombie'
+    HitTheGround: '&6%player &9hit the ground too hard'
+    Void: '&6%player &9fell out of the world'
+    SwimLava: '&6%player &9tried to swim in lava'
+    WentFlames: '&6%player &9went up in flames'
+    BurnedDeath: '&6%player &9burned to death'
+    BlewUp: '&6%player &9blew up'
+    Magic: '&6%player &9was killed by magic'
+    Suffocated: '&6%player &9suffocated in a wall'
+    Pricked: '&6%player &9was pricked to death'
+    Starved: '&6%player &9starved to death'
+    ShotArrow: '&6%player &9was shot by arrow'
+    Withered: '&6%player &9withered away'
+    Died: '&6%player &9died'
+    HurtSkeleton: '&6%player &9was killed while trying to hurt Skeleton'
+    HurtZombie: '&6%player &9was killed while trying to hurt Zombie'

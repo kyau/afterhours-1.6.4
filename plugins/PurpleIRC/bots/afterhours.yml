@@ -1,0 +1,144 @@
+# Sample PurpleIRC bot configuration.
+# Most of these options should be self explanatory.
+# Place your bot file in the PurpleIRC/bots/ folder.
+nick: afterhours
+login: mc
+realname: AfterHours
+server: irc.esper.net
+port: 6697
+ssl: true
+trust-all-certs: true
+charset: ''
+show-motd: false
+autoconnect: 'true'
+password: ''
+ident-password: ''
+command-prefix: .
+quit-message: '&f[&5PurpleIRC&f] Good bye!'
+message-delay: 1000
+raw-message-on-connect: false
+raw-message: auth name pass
+relay-private-chat: false
+command-notify:
+  enabled: false
+  mode: msg
+  recipients:
+  - '#afterhours'
+  - example
+channels:
+  '#afterhours':
+    worlds:
+    - '*'
+    autojoin: true
+    modes: ''
+    password: ''
+    topic: New topic
+    topic-protect: false
+    enabled-messages:
+    - console-chat
+    - game-action
+    - game-chat
+    - game-death
+    - game-kick
+    - game-join
+    - game-quit
+    - irc-action
+    - irc-chat
+    - irc-pchat
+    - irc-join
+    - irc-kick
+    - irc-part
+    - irc-topic
+    - irc-quit
+    - irc-nickchange
+    - irc-mode
+    - irc-notice
+    - rts-notify
+    hero-channel: admin
+    ops:
+    - '*!*kyau@dark.kyau.net'
+    muted:
+    - KuShy
+    ignore-irc-chat: false
+    custom-tab-ignore-list:
+    - AwesomeBot
+    hide-join-when-vanished: true
+    hide-quit-when-vanished: true
+    commands:
+      chat:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@chat'
+        private_listen: 'false'
+        channel_listen: 'true'
+      ochat:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@ochat'
+        private_listen: 'false'
+        channel_listen: 'true'
+      h:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@hchat'
+        private_listen: 'false'
+        channel_listen: 'true'
+      msg:
+        modes: '*'
+        private: 'true'
+        ctcp: 'false'
+        game_command: '@msg'
+        private_listen: 'false'
+        channel_listen: 'true'
+      list:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@list'
+        private_listen: 'false'
+        channel_listen: 'true'
+      help:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@help'
+        private_listen: 'false'
+        channel_listen: 'true'
+      uptime:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: '@uptime'
+        private_listen: 'false'
+        channel_listen: 'true'
+      version:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: version
+        private_listen: 'false'
+        channel_listen: 'true'
+      lag:
+        modes: '*'
+        private: 'false'
+        ctcp: 'false'
+        game_command: lag
+        private_listen: 'false'
+        channel_listen: 'true'
+      lagmem:
+        modes: '*'
+        private: 'true'
+        ctcp: 'false'
+        game_command: lagmem
+        private_listen: 'false'
+        channel_listen: 'true'
+      gamemode:
+        modes: o
+        private: 'false'
+        ctcp: 'false'
+        game_command: gamemode %ARGS%
+        private_listen: 'false'
+        channel_listen: 'false'
