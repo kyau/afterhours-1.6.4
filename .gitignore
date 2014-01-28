@@ -18,6 +18,7 @@ ForgeModLoader-server-*
 white-list.txt
 ops.txt
 # Miscellaneous
+plugins/Essentials/userdata/*
 hats/
 banned*.txt
 test-server

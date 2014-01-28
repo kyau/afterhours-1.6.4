@@ -4,6 +4,7 @@
 groups:
   users:
     default: true
+    prefix: '&f'
     permissions:
     - am2.commands.ConfigureAMUICommand
     - blay09.mods.eirairc.command.CommandWho
@@ -12,6 +13,7 @@ groups:
     - bukkit.command.ban.list
     - bukkit.command.seed
     - cofh.command.commandHandler
+    - csm.command.me
     - essentials.afk
     - essentials.afk.auto
     - essentials.help
@@ -42,6 +44,7 @@ groups:
   vip:
     inheritance:
     - users
+    prefix: '&3'
     permissions:
     - bukkit.command.whitelist.reload
     - bukkit.command.whitelist.list
@@ -67,13 +70,16 @@ groups:
   admin:
     inheritance:
     - vip
+    prefix: '&b'
     permissions:
     - bplay09.mods.eirairc.command.CommandServIRC
     - codechicken.chunkloader.CommandChunkLoaders
     - com.xcompwiz.mystcraft.command.CommandTPX
     - com.xcompwiz.mystcraft.command.CommandCreateAgebook
+    - cs.admin
     - essentials.ban.exempt
     - essentials.essentials
+    - essentials.help.*
     - essentials.kick.exempt
     - essentials.mute.exempt
     - essentials.setspawn

@@ -475,7 +475,7 @@ chat:
   # If set to the default chat format which "should" be compatible with ichat.
   # For more information of chat formatting, check out the wiki: http://wiki.ess3.net/wiki/Chat_Formatting
 
-  format: '&8<&r{DISPLAYNAME}&8>&r {MESSAGE}'
+  format: '&8<&3{DISPLAYNAME}&8>&r {MESSAGE}'
   #format: '&7[{GROUP}]&r {DISPLAYNAME}&7:&r {MESSAGE}'
 
   group-formats:
