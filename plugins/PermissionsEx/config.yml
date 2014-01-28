@@ -1,5 +1,18 @@
+# 
+# vim: sw=2 ts=2 et
+
 permissions:
   backend: file
   backends:
     file:
       file: permissions.yml
+  superperms:
+    enable-wildcards: true
+    disable-unmatched: false
+    enable: true
+    debug: false
+    compatibility-mode: false
+  createUserRecords: true
+  allowOps: false
+  debug: false
+  basedir: plugins/PermissionsEx
