@@ -1,0 +1,135 @@
+on mine diamond ore:
+    loop all players:
+        loop-player has permission "afterhours.admin"
+        send "&8[ &e&l**&r &8]&r &3%player%&r just mined &bdiamond ore&r" to loop-player
+
+command /ver:
+    description: Display modpack/server information
+    executable by: players
+    trigger:
+        message "&8[ &e&l**&r &8]&r After&bHours&r Modpack&7 v0.3-201401271245"
+        message "&8[ &e&l**&r &8] - &rRunning &7MCPC+ %bukkit version%"
+        message " "
+        message "&7 If you would like to witness the development of the AfterHours Modpack, submit a bug or if you merely want to see the plethora of changes we have made you can do so by visiting our GitHub project page."
+        message "&8[ &e&l**&r &8]&r &b->&r https://github.com/kyau/afterhours &b<-"
+command /version:
+    description: Display modpack/server information
+    executable by: players
+    trigger:
+        message "&8[ &e&l**&r &8]&r After&bHours&r Modpack&7 v0.3-201401271245"
+        message "&8[ &e&l**&r &8] - &rRunning &7MCPC+ %bukkit version%"
+        message " "
+        message "&7 If you would like to witness the development of the AfterHours Modpack, submit a bug or if you merely want to see the plethora of changes we have made you can do so by visiting our GitHub project page."
+        message "&8[ &e&l**&r &8]&r &b->&r https://github.com/kyau/afterhours &b<-"
+command /about:
+    description: Display modpack/server information
+    executable by: players
+    trigger:
+        message "&8[ &e&l**&r &8]&r After&bHours&r Modpack&7 v0.3-201401271245"
+        message "&8[ &e&l**&r &8] - &rRunning &7MCPC+ %bukkit version%"
+        message " "
+        message "&7 If you would like to witness the development of the AfterHours Modpack, submit a bug or if you merely want to see the plethora of changes we have made you can do so by visiting our GitHub project page."
+        message "&8[ &e&l**&r &8]&r &b->&r https://github.com/kyau/afterhours &b<-"
+
+command /plugins:
+    description: List of all plugins that have been loaded
+    executable by: players
+    trigger:
+        message " "
+        message "&8[ &e&l**&r &8]&r After&bHours&r Plugins"
+        message "&8[ &e&l**&r &8] - &r&aConsoleSay&7:&r allows for theming of server announcements"
+        message "&8[ &e&l**&r &8] - &r&aCreeperCollateral&7:&r creeper's give one-to-one block return"
+        message "&8[ &e&l**&r &8] - &r&aCustomServerMessages&7:&r allows for theming of server events"
+        message "&8[ &e&l**&r &8] - &r&aEssentials&7:&r core server mechanics"
+        message "&8[ &e&l**&r &8] - &r&aPermissionsEx&7:&r permission management"
+        message "&8[ &e&l**&r &8] - &r&aPurpleIRC&7:&r internet relay chat gateway"
+        message "&8[ &e&l**&r &8] - &r&aSkript&7:&r custom scripting of game mechanics"
+        message "&8[ &e&l**&r &8] - &r&aWorldEdit&7:&r in-game world editor"
+command /pl:
+    description: List of all plugins that have been loaded
+    executable by: players
+    trigger:
+        message " "
+        message "&8[ &e&l**&r &8]&r After&bHours&r Plugins"
+        message "&8[ &e&l**&r &8] - &r&aConsoleSay&7:&r allows for theming of server announcements"
+        message "&8[ &e&l**&r &8] - &r&aCreeperCollateral&7:&r creeper's give one-to-one block return"
+        message "&8[ &e&l**&r &8] - &r&aCustomServerMessages&7:&r allows for theming of server events"
+        message "&8[ &e&l**&r &8] - &r&aEssentials&7:&r core server mechanics"
+        message "&8[ &e&l**&r &8] - &r&aPermissionsEx&7:&r permission management"
+        message "&8[ &e&l**&r &8] - &r&aPurpleIRC&7:&r internet relay chat gateway"
+        message "&8[ &e&l**&r &8] - &r&aSkript&7:&r custom scripting of game mechanics"
+        message "&8[ &e&l**&r &8] - &r&aWorldEdit&7:&r in-game world editor"
+command /mods:
+    description: List of all mods that have been loaded
+    executable by: players
+    trigger:
+        message " "
+        message "&8[ &e&l**&r &8]&r After&bHours&r Mods"
+        message "&8[ &e&l**&r &8] - &r&4Error&r : &7Buffer overflow (Too Many Mods!)"
+
+command /friends:
+    description: Add/remove players from your restricted friends list
+    executable by: players
+    trigger:
+        execute player command "/cofh friend gui"
+
+command /mumble:
+    description: Display mumble server information
+    executable by: players
+    trigger:
+        message " "
+        message "&8[ &e&l**&r &8]&r After&bHours&r Mumble"
+        message "&8[ &e&l**&r &8] - &7http://kyau.net/mumble"
+command /www:
+    description: Display modpack/server information
+    executable by: players
+    trigger:
+        message " "
+        message "&8[ &e&l**&r &8]&r After&bHours&r Website"
+        message "&8[ &e&l**&r &8] - &7http://kyau.net/afterhours/"
+
+command /help <text = "help">:
+    description: Display a list of helpful commands
+    executable by: players
+    trigger:
+        loop all players:
+            if loop-player has permission "afterhours.admin":
+                message "Admin help..."
+            else:
+                message " "
+                message "&8[ &e&l**&r &8]&r &fAfter&bHours&r Help!"
+                if argument 1 is "help":
+                    message "&8[ &e&l**&r &8] -&r Essential Commands&7:"
+                    message "&8[ &e&l**&r &8]&r &7/afk /ignore /me /motd /msg /r /rules /seen /spawn"
+                    message "&8[ &e&l**&r &8] -&r Mod Commands&7:"
+                    message "&8[ &e&l**&r &8]&r &7/amuicfg /dc /friends /mail"
+                    message "&8[ &e&l**&r &8] -&r Server Commands&7:"
+                    message "&8[ &e&l**&r &8]&r &7/mumble /www"
+                if argument 1 is "afk":
+                    message "&8[ &e&l**&r &8] -&r &3/afk&r: &7mark yourself as away-from-keyboard"
+                if argument 1 is "amuicfg":
+                    message "&8[ &e&l**&r &8] -&r &3/amuicfg&r: &7ars magica2 ui layout configuration"
+                if argument 1 is "dc":
+                    message "&8[ &e&l**&r &8] -&r &3/dc&r: &7display the death counter"
+                if argument 1 is "friend":
+                    message "&8[ &e&l**&r &8] -&r &3/friends&r: &7add/remove people from your friends list"
+                if argument 1 is "ignore":
+                    message "&8[ &e&l**&r &8] -&r &3/ignore&r: &7ignore or unignore other players"
+                if argument 1 is "mail":
+                    message "&8[ &e&l**&r &8] -&r &3/mail&r: &7"
+                if argument 1 is "me":
+                    message "&8[ &e&l**&r &8] -&r &3/motd&r: &7 view the message of the day"
+                if argument 1 is "msg":
+                    message "&8[ &e&l**&r &8] -&r &3/msg&r: &7send a private message to another player"
+                if argument 1 is "mumble":
+                    message "&8[ &e&l**&r &8] -&r &3/mumble&r: &7display the server's mumble information"
+                if argument 1 is "r":
+                    message "&8[ &e&l**&r &8] -&r &3/r&r: &7reply to a private message"
+                if argument 1 is "rules":
+                    message "&8[ &e&l**&r &8] -&r &3/rules&r: &7view the server rules"
+                if argument 1 is "seen":
+                    message "&8[ &e&l**&r &8] -&r &3/seen&r: &7shows the last logout time of a player"
+                if argument 1 is "spawn":
+                    message "&8[ &e&l**&r &8] -&r &3/spawn&r: &7teleport to the spawn point"
+                if argument 1 is "www":
+                    message "&8[ &e&l**&r &8] -&r &3/www&r: &7display the server's website information"

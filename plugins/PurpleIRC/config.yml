@@ -1,18 +1,18 @@
 # Global configuration for PurpleIRC
 # How often we check to see if a bot is connected to the IRC server. This is in server ticks (There 20 ticks in one sec).
 conn-check-interval: 1000
-enable-ident-server: false
+enable-ident-server: true
 channel-check-interval: 100
 message-format:
-  console-chat: '&8[ &e&l**&r &8] &cServer &8- &r%MESSAGE%'
+  console-chat: '&8[ &e&l**&r &8] &fAfter&bHours &8- &c%MESSAGE%'
   game-action: '&r* %NAME%&r %MESSAGE%'
   game-pchat: '&0[&2%WORLD%&0]<%NAME%&0> %MESSAGE%'
   game-pchat-response: ' &6-> &7%TARGET%: %MESSAGE%'
-  game-chat: '&8<&r%NAME%&8>&r %MESSAGE%'
+  game-chat: '&8<&r%GROUPPREFIX%%NAME%&8>&r %MESSAGE%'
   game-death: '&r%MESSAGE%'
   game-kick: '&r%MESSAGE%'
-  game-join: '&r%MESSAGE%'
-  game-quit: '&r%MESSAGE%'
+  game-join: '&8[ &e&l**&r &8] &3%GROUPPREFIX%%NAME%&r joined the game!'
+  game-quit: '&8[ &e&l**&r &8] &3%GROUPPREFIX%%NAME%&r left the game!'
   game-command: '&0[&2%WORLD%&0] Command detected by %NAME%: %COMMAND% %PARAMS%'
   game-send: '&0[&2%WORLD%&0]<%NAME%&0> %MESSAGE%'
   ess-player-afk: '&0[&2%WORLD%&0] %NAME% &0is now AFK'
@@ -34,6 +34,7 @@ message-format:
   clever-send: '&0[&4BOT&0]<%NAME%&0> %MESSAGE%'
   mcmmo-admin-chat: '&0[admin:%WORLD%&0]<%NAME%&0> %MESSAGE%'
   mcmmo-party-chat: '&0[party:%PARTY%&0]<%NAME%&0> %MESSAGE%'
+  mcmmo-chat: '&r[mcMMO]<%NAME%&r> %MESSAGE%'
   faction-public-chat: '&0[%FACTIONMODE%] &0[%FACTIONTAG%&0]<%NAME%&0> %MESSAGE%'
   faction-ally-chat: '&0[%FACTIONMODE%] &0[%FACTIONTAG%&0]<%NAME%&0> %MESSAGE%'
   faction-enemy-chat: '&0[%FACTIONMODE%] &0[%FACTIONTAG%&0]<%NAME%&0> %MESSAGE%'
@@ -49,11 +50,23 @@ message-format:
   irc-hero-topic: '&f[&3IRC&f] Topic changed by %NAME%&f: %TOPIC%.'
   titan-chat: '&0[%CHANNEL%&0]<%NAME%&0> %MESSAGE%'
   irc-titan-chat: '&f[&3IRC&f]<%NAME%&f> %MESSAGE%'
-  invalid-irc-command: I'm sorry '%NICK%' I can't do that. Type '%CMDPREFIX%help' for a list of commands I might respond to.
-  no-perm-for-irc-command: I'm sorry '%NICK%' you are not authorized to do that. Type '%CMDPREFIX%help' for a list of commands I might respond to.
+  towny-channel-chat: '&r%TOWNYCHANNELTAG%[%TOWNYCHANNEL%]<%NAME%&r> %MESSAGE%'
+  invalid-irc-command: Invalid command. Type '%CMDPREFIX%help' for a list of commands.
+  no-perm-for-irc-command: No access. Type '%CMDPREFIX%help' for a list of commands.
   rts-notify: '[RTS] <%NAME%> %MESSAGE%'
+  rts-complete: '[RTS:Complete] #%TICKETNUMBER% <%NAME%> %MESSAGE%'
+  rts-claim: '[RTS:Claim] #%TICKETNUMBER% <%NAME%> %MESSAGE%'
+  rts-unclaim: '[RTS:Unclaim] #%TICKETNUMBER% <%NAME%> %MESSAGE%'
+  rts-held: '[RTS:Held] #%TICKETNUMBER% <%NAME%> %MESSAGE%'
+  rts-assign: '[RTS:Assign] #%TICKETNUMBER% <%NAME%> %MESSAGE%'
+  rts-reopen: '[RTS:Reopen] #%TICKETNUMBER% <%NAME%> %MESSAGE%'
+  jobs-separator: ', '
   irc-hero-channels:
     Global: '&f[G]&f[IRC]%PLAYERPREFIX%%NAME%&f %MESSAGE%'
+  hero-channels:
+    Global: '&r[%CHANNEL%&r]<%NAME%&r> %MESSAGE%'
+  hero-action-channels:
+    Global: '&r[&2%CHANNEL%&r] ***%NAME%&r %MESSAGE%'
   broadcast-message: '[Broadcast] <%NAME%> %MESSAGE%'
   broadcast-console-message: '[Broadcast] <Console> %MESSAGE%'
   default-player-suffix: ''
@@ -62,6 +75,9 @@ message-format:
   default-group-prefix: ''
   default-player-world: afterhours
   default-player-group: ''
+list-format: '&8[ &e&l**&r &8]&r Online Players  &7(&3%COUNT%&8/&7%MAX%):&r  %PLAYERS%'
+list-separator: '&r, '
+list-player: '%GROUPPREFIX%%NAME%'
 strip-game-colors: false
 strip-irc-colors: false
 custom-tab-list: false

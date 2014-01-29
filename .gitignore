@@ -19,6 +19,7 @@ white-list.txt
 ops.txt
 # Miscellaneous
 plugins/Essentials/userdata/*
+plugins/Skript/backups/*
 hats/
 banned*.txt
 test-server

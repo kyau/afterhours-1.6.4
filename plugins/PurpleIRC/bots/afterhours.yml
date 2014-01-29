@@ -13,7 +13,7 @@ show-motd: false
 autoconnect: 'true'
 password: ''
 ident-password: ''
-command-prefix: .
+command-prefix: '@'
 quit-message: '&f[&5PurpleIRC&f] Good bye!'
 message-delay: 1000
 raw-message-on-connect: false
