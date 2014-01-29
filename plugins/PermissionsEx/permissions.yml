@@ -18,7 +18,6 @@ groups:
     - essentials.afk.auto
     - essentials.help
     - essentials.ignore
-    - essentials.me
     - essentials.motd
     - essentials.msg
     - essentials.msg.color

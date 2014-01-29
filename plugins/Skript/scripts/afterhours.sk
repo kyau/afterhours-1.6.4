@@ -1,8 +1,15 @@
-on mine diamond ore:
-    loop all players:
-        loop-player has permission "afterhours.admin"
-        send "&8[ &e&l**&r &8]&r &3%player%&r just mined &bdiamond ore&r" to loop-player
+# AfterHours Modpack - Master Script
+#
 
+# Command Replacements
+# - /ver, /version, /about
+# - /pl, /plugins
+# - /help
+# Command Additions
+# - /friends
+# - /mods
+# - /mumble
+# - /www
 command /ver:
     description: Display modpack/server information
     executable by: players
@@ -100,7 +107,7 @@ command /help <text = "help">:
                 message "&8[ &e&l**&r &8]&r &fAfter&bHours&r Help!"
                 if argument 1 is "help":
                     message "&8[ &e&l**&r &8] -&r Essential Commands&7:"
-                    message "&8[ &e&l**&r &8]&r &7/afk /ignore /me /motd /msg /r /rules /seen /spawn"
+                    message "&8[ &e&l**&r &8]&r &7/afk /ignore /motd /msg /r /rules /seen /spawn"
                     message "&8[ &e&l**&r &8] -&r Mod Commands&7:"
                     message "&8[ &e&l**&r &8]&r &7/amuicfg /dc /friends /mail"
                     message "&8[ &e&l**&r &8] -&r Server Commands&7:"
@@ -117,7 +124,7 @@ command /help <text = "help">:
                     message "&8[ &e&l**&r &8] -&r &3/ignore&r: &7ignore or unignore other players"
                 if argument 1 is "mail":
                     message "&8[ &e&l**&r &8] -&r &3/mail&r: &7"
-                if argument 1 is "me":
+                if argument 1 is "motd":
                     message "&8[ &e&l**&r &8] -&r &3/motd&r: &7 view the message of the day"
                 if argument 1 is "msg":
                     message "&8[ &e&l**&r &8] -&r &3/msg&r: &7send a private message to another player"
@@ -133,3 +140,14 @@ command /help <text = "help">:
                     message "&8[ &e&l**&r &8] -&r &3/spawn&r: &7teleport to the spawn point"
                 if argument 1 is "www":
                     message "&8[ &e&l**&r &8] -&r &3/www&r: &7display the server's website information"
+
+# Event Replacements
+# - First Join, Join, Quit, & Death
+on join:
+    set join message to "&8[&r &e&l**&r &8]&r &3%player%&r joined the game!"
+on first join:
+    set join message to "&8[&r &e&l**&r &8]&r &3%player%&r joined the game! welcome!"
+on quit:
+    set quit message to "&8[&r &e&l**&r &8]&r &3%player%&r left the game!"
+
+#message "Online players: %join all players with " | "%"
