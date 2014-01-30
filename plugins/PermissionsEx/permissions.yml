@@ -73,6 +73,7 @@ groups:
     permissions:
     - afterhours.admin
     - bplay09.mods.eirairc.command.CommandServIRC
+    - bukkit.broadcast
     - codechicken.chunkloader.CommandChunkLoaders
     - com.xcompwiz.mystcraft.command.CommandTPX
     - com.xcompwiz.mystcraft.command.CommandCreateAgebook
@@ -95,3 +96,6 @@ users:
   kyau_net:
     group:
     - admin
+  Dynaticus:
+    group:
+    - users
