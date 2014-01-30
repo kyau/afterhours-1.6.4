@@ -26,3 +26,5 @@ test-server
 mcpc.yml
 spigot.yml
 *.class
+java.pid
+screen.name

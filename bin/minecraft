@@ -5,7 +5,7 @@
 USERNAME="kyau"
 SERVER_NAME="AfterHours"
 
-MC_PATH="/home/$USERNAME/mc-server"
+MC_PATH="/home/$USERNAME/code/afterhours"
 BACKUP_PATH="/home/$USERNAME/backup"
 ARCHIVE_PATH="$BACKUP_PATH/archive"
 BACKUP_DIR=$(date +%b_%Y)
@@ -77,7 +77,7 @@ mc_start() {
 mc_saveoff() {
     if is_running; then
         echo "$SERVER_NAME is running... suspending saves"
-        mc_exec "say $SERVER_NAME Backup starting. [world read-only]"
+        mc_exec "say Backup Starting..."
         mc_exec "save-off"
         mc_exec "save-all"
         sync
@@ -91,7 +91,7 @@ mc_saveon() {
     if is_running; then
         echo "$SERVER_NAME is running... re-enabling saves"
         mc_exec "save-on"
-        mc_exec "say $SERVER_NAME Backup ended. [world read-write]"
+        mc_exec "say Backup Finished..."
     else
         echo "$SERVER_NAME was not running. Not resuming saves."
     fi
@@ -117,7 +117,7 @@ mc_kill() {
 mc_stop() {
     if is_running; then
         echo "$SERVER_NAME is running... stopping."
-        mc_exec "say Shutdown in 10 seconds. Saving map..."
+        mc_exec "say Automatic Restart in 10 seconds..."
         mc_exec "save-all"
         sleep 10
         mc_exec "stop"
