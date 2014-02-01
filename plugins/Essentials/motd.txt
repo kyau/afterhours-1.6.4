@@ -1,6 +1,4 @@
-&8[ &e** &8]&r &8-
-&8[ &e** &8]&r After&bHours&r Modpack &7v0.3-201401271245
-&8[ &e** &8]&r &8-
-&8[ &e** &8]&r There are &2{ONLINE}&r player&7(&rs&7)&r online
-&8[ &e** &8]&r Use &2/help&r for more information
-&f &r
+&8-&r
+&8[ &e** &8]&r There are &a{ONLINE}&r player&7(&rs&7)&r online
+&8[ &e** &8]&r Use &3/help&r for more information
+&8-&r

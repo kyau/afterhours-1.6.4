@@ -84,6 +84,7 @@ groups:
     - essentials.kick.exempt
     - essentials.mute.exempt
     - essentials.setspawn
+    - essentials.top
     - permissions.*
     - SimpleAlias.*
     - StevenDimDoors.mod_pocketDim.commands.CommandCreateDungeonRift
@@ -97,5 +98,8 @@ users:
     group:
     - admin
   Dynaticus:
+    group:
+    - users
+  Thokamb:
     group:
     - users
