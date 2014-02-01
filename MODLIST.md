@@ -19,7 +19,7 @@
 | [Biomes 'O Plenty](http://www.minecraftforge.net/forum/index.php/topic,13244.0.html) | 1.2.1.434 |
 | [BuildCraft](http://www.mod-buildcraft.com/) | 4.2.2 |
 | [Calclavia Core](http://universalelectricity.com/calclavia-core/) | 1.1.1.83 |
-| [Carpenter's Blocks](http://www.minecraftforum.net/topic/1790919-) | 2.0.1 |
+| [Carpenter's Blocks](http://www.minecraftforum.net/topic/1790919-) | 2.0.2 |
 | [ChargePads](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) | 3.0.0.94 |
 | [ChickenChunks](http://www.minecraftforum.net/topic/909223-) | 1.3.3.3 |
 | [Chisel](http://www.minecraftforum.net/topic/1749374-) | 1.5.0fix |
@@ -49,11 +49,11 @@
 | [InventoryTweaks](http://www.minecraftforum.net/topic/1720872-) | 1.57-dev-b95 |
 | [JABBA](http://www.minecraftforum.net/topic/2182366-) | 1.0.3 |
 | [KeithyUtils](http://www.curse.com/mc-mods/minecraft/keithyutils) | 1.2.24 |
-| [LogisticsPipes](https://github.com/RS485/LogisticsPipes/) | 0.7.4.dev.102 |
+| [LogisticsPipes](https://github.com/RS485/LogisticsPipes/) | 0.7.4.dev.103 |
 | [Magic Bees](http://forestry.sengir.net/forum/viewtopic.php?id=17) | 2.1.11 |
 | [Mechworks](http://www.minecraftforum.net/topic/1659892-) | 0.1.3 |
 | [Metallurgy](http://www.minecraftforum.net/topic/744918-) | 3.3.2.40 |
-| [MFFS](http://calclavia.com/mffs/) | 3.6.2.9 |
+| [MFFS](http://calclavia.com/mffs/) | 3.6.2.11 |
 | [MineFactory Reloaded](http://www.minecraftforum.net/topic/2016680-) | 2.7.5B1-357 |
 | [MineTweaker](http://www.minecraftforum.net/topic/1886008-) | 2.3.0 |
 | [Modular Power Suits](http://machinemuse.net/) | 0.10.0-92 |
@@ -71,6 +71,7 @@
 | [OpenPeripheralCore](http://www.openperipheral.info) | 0.3.0-snapshot-43 |
 | [Plugins for Forestry](http://denoflionsx.info/) | 3.2.30 |
 | [PortalGun](http://ichun.us/mods/portalgun/) | 2.0.2 |
+| [Power Converters](http://www.minecraftforum.net/topic/1695968-) | 1.6.4-39
 | [PowerCrystalsCore](http://www.minecraftforum.net/topic/2016680-) | 1.1.8-20 |
 | [Project: Red](http://projectredwiki.com/) | 4.2.2.19 |
 | [Railcraft](http://www.railcraft.info/) | 8.3.2.0 |
@@ -84,6 +85,6 @@
 | [Tinkers' Construct](http://www.minecraftforum.net/topic/1659892-) | 1.6.4-50.f76c6d9 |
 | [Translocators](http://www.minecraftforum.net/topic/909223-) | 1.1.0.13 |
 | [Twilight Forest](http://www.minecraftforum.net/topic/561673-) | 1.20.3 |
-| [Universal Electricity Core](http://universalelectricity.com/) | 3.0.1.29 |
+| [Universal Electricity Core](http://universalelectricity.com/) | 3.0.1.32 |
 | [Waila](http://www.minecraftforum.net/topic/1846244-) | 1.4.4b |
 | [Wireless Redstone](http://www.minecraftforum.net/topic/909223-) | 1.4.0.6 |

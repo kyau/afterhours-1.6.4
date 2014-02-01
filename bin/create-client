@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Script used to create the MultiMC zips for players
+
+CLIENT=/home/kyau/code/afterhours/client
+MULTIMC=http://files.multimc.org/downloads/mmc-stable-win32.zip
+
+#cd ${CLIENT}
+#wget ${MULTIMC}
+#unzip mmc-stable-win32.zip
