@@ -2,9 +2,40 @@
 
 # Script used to create the MultiMC zips for players
 
-CLIENT=/home/kyau/code/afterhours/client
+BASEDIR=/home/kyau/code/afterhours/client
+MCDIR=/home/kyau/code/afterhours
 MULTIMC=http://files.multimc.org/downloads/mmc-stable-win32.zip
+OUTPUTDIR=/home/kyau/public_html/kyau_net/www/files
 
-#cd ${CLIENT}
-#wget ${MULTIMC}
-#unzip mmc-stable-win32.zip
+cd ${BASEDIR}
+rm -rf MultiMC/ mmc-stable-win32.zip
+wget ${MULTIMC}
+unzip mmc-stable-win32.zip
+cd ${BASEDIR}/MultiMC
+mkdir -p ${BASEDIR}/MultiMC/mods
+unzip ${BASEDIR}/mmc-afterhours.zip
+cd ${BASEDIR}/MultiMC/mods
+unzip ${BASEDIR}/client-mods.zip
+mkdir -p ${BASEDIR}/MultiMC/instances/AfterHours\ Alpha/minecraft/config
+mkdir -p ${BASEDIR}/MultiMC/instances/AfterHours\ Alpha/minecraft/mods
+cd ${MCDIR}/config
+cp -r * ${BASEDIR}/MultiMC/instances/AfterHours\ Alpha/minecraft/config
+rm ${BASEDIR}/MultiMC/instances/AfterHours\ Alpha/minecraft/config/Dynmap.cfg
+cd ${MCDIR}/mods/
+cp -r * ${BASEDIR}/MultiMC/mods/afterhours
+cd ${BASEDIR}/MultiMC/mods/afterhours
+rm -rf 1.6.4/ denLib/ ic2/ Dynmap*.jar
+cp -r * ${BASEDIR}/MultiMC/instances/AfterHours\ Alpha/minecraft/mods
+cd ${BASEDIR}/MultiMC/mods/resourcepacks
+cp AfterHours.zip ${BASEDIR}/MultiMC/instances/AfterHours\ Alpha/minecraft/resourcepacks
+cd ${BASEDIR}
+rm -rf ${OUTPUTDIR}/old-client/
+mkdir -p ${OUTPUTDIR}/old-client/
+mv ${OUTPUTDIR}/client.zip ${OUTPUTDIR}/old-client/client.zip
+mv ${OUTPUTDIR}/config.zip ${OUTPUTDIR}/old-client/config.zip
+mv ${OUTPUTDIR}/mods.zip ${OUTPUTDIR}/old-client/mods.zip
+7z a ${OUTPUTDIR}/client.zip Multi*
+cd ${BASEDIR}/MultiMC/instances/AfterHours\ Alpha/minecraft
+7z a ${OUTPUTDIR}/config.zip confi*
+cd ${BASEDIR}/MultiMC/mods
+7z a ${OUTPUTDIR}/mods.zip afterhour*

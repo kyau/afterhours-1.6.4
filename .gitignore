@@ -18,6 +18,7 @@ ForgeModLoader-server-*
 white-list.txt
 ops.txt
 # Miscellaneous
+client/
 plugins/Essentials/userdata/*
 plugins/Skript/backups/*
 hats/

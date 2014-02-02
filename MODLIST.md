@@ -18,7 +18,7 @@
 | [Binnie Mods](http://extrabees.giffmemana.com/) | 1.8.0 |
 | [Biomes 'O Plenty](http://www.minecraftforge.net/forum/index.php/topic,13244.0.html) | 1.2.1.434 |
 | [BuildCraft](http://www.mod-buildcraft.com/) | 4.2.2 |
-| [Calclavia Core](http://universalelectricity.com/calclavia-core/) | 1.1.1.83 |
+| [Calclavia Core](http://universalelectricity.com/calclavia-core/) | 1.1.1.95 |
 | [Carpenter's Blocks](http://www.minecraftforum.net/topic/1790919-) | 2.0.2 |
 | [ChargePads](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) | 3.0.0.94 |
 | [ChickenChunks](http://www.minecraftforum.net/topic/909223-) | 1.3.3.3 |
@@ -44,12 +44,12 @@
 | [Hardcore Ender Expansion](http://www.minecraftforum.net/topic/1066990-) | 1.3.3 |
 | [iChunUtil](http://ichun.us/mods/ichun-util/) | 2.4.0 |
 | [Iguana Tweaks](http://www.minecraftforum.net/topic/1953828-) | 1p-build10 |
-| [IndustrialCraft2](http://www.industrial-craft.net/) | 2.0.379 |
+| [IndustrialCraft2](http://www.industrial-craft.net/) | 2.0.381 |
 | [InfiniBows](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) | 1.2.0.14 |
 | [InventoryTweaks](http://www.minecraftforum.net/topic/1720872-) | 1.57-dev-b95 |
 | [JABBA](http://www.minecraftforum.net/topic/2182366-) | 1.0.3 |
 | [KeithyUtils](http://www.curse.com/mc-mods/minecraft/keithyutils) | 1.2.24 |
-| [LogisticsPipes](https://github.com/RS485/LogisticsPipes/) | 0.7.4.dev.103 |
+| [LogisticsPipes](https://github.com/RS485/LogisticsPipes/) | 0.7.4.dev.104 |
 | [Magic Bees](http://forestry.sengir.net/forum/viewtopic.php?id=17) | 2.1.11 |
 | [Mechworks](http://www.minecraftforum.net/topic/1659892-) | 0.1.3 |
 | [Metallurgy](http://www.minecraftforum.net/topic/744918-) | 3.3.2.40 |
@@ -65,10 +65,10 @@
 | [NotEnoughItems](http://www.minecraftforum.net/topic/909223-) | 1.6.1.8 |
 | [Nuclear Control](http://forum.industrial-craft.net/index.php?page=Thread&threadID=5915) | 1.6.2e |
 | [Obsidian Pressure Plates](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) | 2.0.0.15 |
-| [OpenBlocks](http://www.minecraftforum.net/topic/1941514-) | 1.2.3-snapshot-154 |
-| [OpenModsLib](http://www.openperipheral.info) | 0.1-snapshot-115 |
-| [OpenPeripheralAddons](http://www.openperipheral.info) | 0.1.0-snapshot-43 |
-| [OpenPeripheralCore](http://www.openperipheral.info) | 0.3.0-snapshot-43 |
+| [OpenBlocks](http://www.minecraftforum.net/topic/1941514-) | 1.2.3-snapshot-159 |
+| [OpenModsLib](http://www.openperipheral.info) | 0.1-snapshot-120 |
+| [OpenPeripheralAddons](http://www.openperipheral.info) | 0.1.0-snapshot-45 |
+| [OpenPeripheralCore](http://www.openperipheral.info) | 0.3.0-snapshot-47 |
 | [Plugins for Forestry](http://denoflionsx.info/) | 3.2.30 |
 | [PortalGun](http://ichun.us/mods/portalgun/) | 2.0.2 |
 | [Power Converters](http://www.minecraftforum.net/topic/1695968-) | 1.6.4-39
@@ -85,6 +85,6 @@
 | [Tinkers' Construct](http://www.minecraftforum.net/topic/1659892-) | 1.6.4-50.f76c6d9 |
 | [Translocators](http://www.minecraftforum.net/topic/909223-) | 1.1.0.13 |
 | [Twilight Forest](http://www.minecraftforum.net/topic/561673-) | 1.20.3 |
-| [Universal Electricity Core](http://universalelectricity.com/) | 3.0.1.32 |
+| [Universal Electricity Core](http://universalelectricity.com/) | 3.0.1.41 |
 | [Waila](http://www.minecraftforum.net/topic/1846244-) | 1.4.4b |
 | [Wireless Redstone](http://www.minecraftforum.net/topic/909223-) | 1.4.0.6 |
