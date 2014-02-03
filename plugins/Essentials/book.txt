@@ -1,0 +1,32 @@
+#start
+    Welcome to the
+AfterHours Modpack!
+&f &r
+I can promise this will be an experience like none other in modded minecraft! It would do you well to skim through this book before heading out.
+       ~&3@&rkyau_net
+&7[&3Getting Started&7]&r
+Your first few days in minecraft have drastically changed. Vanilla wood && stone tools are disabled. Tinkers' Construct tool progression is: Wood > Flint/Bone > Copper > Iron > Bronze.
+All TCon tools have material restrictions in place, consult the pattern tooltips for details. TCon tools are now upgradable! Tools no longer have modifiers by default, you now gain mods upon leveling up the tool. Once you reach the copper tier, you will unlock Bonus XP. Bonus XP is used to unlock the next mining tier.
+&f &r
+&7[&3FAQ&7]&r
+All tool XP is saved on upgrade.
+&f &r
+To upgrade tools they must be fully repaired.
+&f &r
+&7[&3Other Changes&7]&r
+All machines now require steel!
+&f &r
+Recipes changes: AE, BC, CC, EnderStorage, IC2, MPS, TE3, and more!
+&f &r
+Consult NEI for recipe changes.
+&f &r
+Good luck && I hope you enjoy your stay here at Afterhours!
+&f &r
+&f &r
+&f &r
+&f &r
+&f &r
+&f &r
+&f &r
+&nAfterHours Modpack
+&ogit:kyau/afterhours
