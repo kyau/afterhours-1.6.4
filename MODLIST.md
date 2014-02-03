@@ -18,7 +18,7 @@
 | [Binnie Mods](http://extrabees.giffmemana.com/) | 1.8.0 |
 | [Biomes 'O Plenty](http://www.minecraftforge.net/forum/index.php/topic,13244.0.html) | 1.2.1.434 |
 | [BuildCraft](http://www.mod-buildcraft.com/) | 4.2.2 |
-| [Calclavia Core](http://universalelectricity.com/calclavia-core/) | 1.1.1.95 |
+| [Calclavia Core](http://universalelectricity.com/calclavia-core/) | 1.1.1.104 |
 | [Carpenter's Blocks](http://www.minecraftforum.net/topic/1790919-) | 2.0.2 |
 | [ChargePads](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) | 3.0.0.94 |
 | [ChickenChunks](http://www.minecraftforum.net/topic/909223-) | 1.3.3.3 |
@@ -53,7 +53,7 @@
 | [Magic Bees](http://forestry.sengir.net/forum/viewtopic.php?id=17) | 2.1.11 |
 | [Mechworks](http://www.minecraftforum.net/topic/1659892-) | 0.1.3 |
 | [Metallurgy](http://www.minecraftforum.net/topic/744918-) | 3.3.2.40 |
-| [MFFS](http://calclavia.com/mffs/) | 3.6.2.11 |
+| [MFFS](http://calclavia.com/mffs/) | 3.6.2.13 |
 | [MineFactory Reloaded](http://www.minecraftforum.net/topic/2016680-) | 2.7.5B1-357 |
 | [MineTweaker](http://www.minecraftforum.net/topic/1886008-) | 2.3.0 |
 | [Modular Power Suits](http://machinemuse.net/) | 0.10.0-92 |
@@ -82,9 +82,9 @@
 | [Thaumcraft](http://www.minecraftforum.net/topic/2011841-) | 4.0.5b |
 | [Thaumic Tinkerer](http://www.minecraftforum.net/topic/1813058-) | 2.1-68 |
 | [Thermal Expansion](http://teamcofh.com/) | 3.0.0.2 |
-| [Tinkers' Construct](http://www.minecraftforum.net/topic/1659892-) | 1.6.4-50.f76c6d9 |
+| [Tinkers' Construct](http://www.minecraftforum.net/topic/1659892-) | 1.5.2.6 |
 | [Translocators](http://www.minecraftforum.net/topic/909223-) | 1.1.0.13 |
 | [Twilight Forest](http://www.minecraftforum.net/topic/561673-) | 1.20.3 |
-| [Universal Electricity Core](http://universalelectricity.com/) | 3.0.1.41 |
+| [Universal Electricity Core](http://universalelectricity.com/) | 3.0.1.42 |
 | [Waila](http://www.minecraftforum.net/topic/1846244-) | 1.4.4b |
 | [Wireless Redstone](http://www.minecraftforum.net/topic/909223-) | 1.4.0.6 |
