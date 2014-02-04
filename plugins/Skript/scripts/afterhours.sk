@@ -144,7 +144,7 @@ command /help <text = "help">:
 on join:
     set join message to "&8[&r &e&l**&r &8]&r &3%player%&r joined the game!"
 on first join:
-    set join message to "&8[&r &e&l**&r &8]&r &3%player%&r joined the game! welcome!"
+    set join message to "&8[&r &e&l**&r &8]&r &3%player%&r joined the game!"
 on quit:
     set quit message to "&8[&r &e&l**&r &8]&r &3%player%&r left the game!"
 

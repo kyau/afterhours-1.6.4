@@ -13,7 +13,6 @@ All TCon tools have material restrictions in place, consult the pattern tooltips
 All tool XP is saved on upgrade.
 &f &r
 To upgrade tools they must be fully repaired.
-&f &r
 &7[&3Other Changes&7]&r
 All machines now require steel!
 &f &r
