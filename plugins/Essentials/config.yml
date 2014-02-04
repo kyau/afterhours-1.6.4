@@ -224,7 +224,7 @@ kits:
   start:
     delay: 0
     items:
-      - 387 1 title:&fAfter&bHours_&fReadme author:kyau_net lore:Getting_Started_Guide book:start
+      - 387 1 title:&fAfter&bHours_&fReadme author:kyau_net book:start
 
 # Essentials Sign Control
 # See http://wiki.ess3.net/wiki/Sign_Tutorial for instructions on how to use these.
