@@ -54,7 +54,7 @@
 | [Mechworks](http://www.minecraftforum.net/topic/1659892-) | 0.1.3 |
 | [Metallurgy](http://www.minecraftforum.net/topic/744918-) | 3.3.2.40 |
 | [MFFS](http://calclavia.com/mffs/) | 3.6.2.13 |
-| [MineFactory Reloaded](http://www.minecraftforum.net/topic/2016680-) | 2.7.5B1-357 |
+| [MineFactory Reloaded](http://www.minecraftforum.net/topic/2016680-) | 2.7.5B1-358 |
 | [MineTweaker](http://www.minecraftforum.net/topic/1886008-) | 2.3.0 |
 | [Modular Power Suits](http://machinemuse.net/) | 0.10.0-92 |
 | [Modular Power Suits Addons](http://www.minecraftforum.net/topic/2287651-) | 1.6.4-884 |

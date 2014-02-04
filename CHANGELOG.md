@@ -4,6 +4,7 @@
 ```
 Updated Calclavia Core to 1.1.1.104
 Updated MFFS to 3.6.2.13
+Updated MineFactory Reloaded to 2.7.6B1-358
 Updated Thaumic Tinkerer to 2.1-72
 Updated Universal Electricity to 3.0.1.42
 Updated Waila to 1.4.5
