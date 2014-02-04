@@ -19,6 +19,7 @@ white-list.txt
 ops.txt
 # Miscellaneous
 client/
+dynmap/
 plugins/Essentials/userdata/*
 plugins/Skript/backups/*
 hats/

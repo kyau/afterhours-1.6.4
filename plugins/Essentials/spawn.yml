@@ -1,0 +1,15 @@
+spawns: 
+  newbies: 
+    world: afterhours
+    x: 166.5
+    y: 129.0
+    z: 55.5
+    yaw: -2.249536
+    pitch: 5.84999
+  default: 
+    world: afterhours
+    x: 166.5
+    y: 69.0
+    z: 55.5
+    yaw: 0.60050654
+    pitch: 12.149941

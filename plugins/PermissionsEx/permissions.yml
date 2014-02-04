@@ -38,6 +38,7 @@ groups:
     - essentials.signs.magic
     - deathcounter.core.CommandDeathCounter
     - forestry.mail.CommandMail
+    - org.dynmap.*
     options:
       rank: '300'
   vip:

@@ -80,11 +80,11 @@
 | [Steve's Carts 2](http://stevescarts2.wikispaces.com/) | 2.0.0.b10 |
 | [Switches](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) | 1.3.0.25 |
 | [Thaumcraft](http://www.minecraftforum.net/topic/2011841-) | 4.0.5b |
-| [Thaumic Tinkerer](http://www.minecraftforum.net/topic/1813058-) | 2.1-68 |
+| [Thaumic Tinkerer](http://www.minecraftforum.net/topic/1813058-) | 2.1-72 |
 | [Thermal Expansion](http://teamcofh.com/) | 3.0.0.2 |
 | [Tinkers' Construct](http://www.minecraftforum.net/topic/1659892-) | 1.5.2.6 |
 | [Translocators](http://www.minecraftforum.net/topic/909223-) | 1.1.0.13 |
 | [Twilight Forest](http://www.minecraftforum.net/topic/561673-) | 1.20.3 |
 | [Universal Electricity Core](http://universalelectricity.com/) | 3.0.1.42 |
-| [Waila](http://www.minecraftforum.net/topic/1846244-) | 1.4.4b |
+| [Waila](http://www.minecraftforum.net/topic/1846244-) | 1.4.5 |
 | [Wireless Redstone](http://www.minecraftforum.net/topic/909223-) | 1.4.0.6 |
