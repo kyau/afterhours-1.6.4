@@ -16,6 +16,7 @@ groups:
     - csm.command.me
     - essentials.afk
     - essentials.afk.auto
+    - essentials.delhome
     - essentials.help
     - essentials.ignore
     - essentials.motd
@@ -26,8 +27,9 @@ groups:
     - essentials.msg.url
     - essentials.rules
     - essentials.seen
+    - essentials.sethome
     - essentials.sethome.bed
-    - essentials.spawn
+    - essentials.home
     - essentials.home.bed
     - essentials.chat.color
     - essentials.chat.format
@@ -54,7 +56,6 @@ groups:
     - essentials.ban.notify
     - essentials.ban.offline
     - essentials.banip
-    - essentials.delhome
     - essentials.delhome.others
     - essentials.joinfullserver
     - essentials.kick
@@ -85,7 +86,6 @@ groups:
     - essentials.kick.exempt
     - essentials.mute.exempt
     - essentials.setspawn
-    - essentials.top
     - permissions.*
     - SimpleAlias.*
     - StevenDimDoors.mod_pocketDim.commands.CommandCreateDungeonRift
