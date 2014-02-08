@@ -42,6 +42,7 @@ tile.mfr.machine.fruitpicker.name = Fruit Picker
 tile.mfr.machine.blockplacer.name = Block Placer
 tile.mfr.machine.mobcounter.name = Mob Counter
 tile.mfr.machine.steamturbine.name = Steam Turbine
+tile.mfr.machine.chunkloader.name = Chunk Loader
 
 tile.mfr.conveyor.default.name = Conveyor Belt
 tile.mfr.conveyor.white.name = Conveyor Belt (White)
@@ -177,6 +178,11 @@ item.mfr.bucket.plasticcup.suffix.name = Cup
 item.mfr.bucket.plasticcell.name = Plastic Cell
 item.mfr.bucket.plasticcell.prefix.name =
 item.mfr.bucket.plasticcell.suffix.name = Cell
+
+item.mfr.armor.helm.plastic  = Plastic Helmet
+item.mfr.armor.chest.plastic = Plastic Breastplate
+item.mfr.armor.legs.plastic  = Plastic Leggings
+item.mfr.armor.boots.plastic = Plastic Boots
 
 item.mfr.hammer.name = Precision Sledgehammer
 item.mfr.fertilizer.name = Industrial Fertilizer
@@ -346,6 +352,9 @@ circuit.mfr.xnor.4 = Xnor (4-Input)
 circuit.mfr.xor.2 = Xor (2-Input)
 circuit.mfr.xor.3 = Xor (3-Input)
 circuit.mfr.xor.4 = Xor (4-Input)
+
+container.mfr.radius = Radius:
+container.mfr.power = Energy draw:
 
 chat.info.mfr.safarinet.capture = Changed to capture mode
 chat.info.mfr.safarinet.release = Changed to release mode

@@ -18,7 +18,7 @@ PERMSIZE='256'
 PERMSIZE_OPTS="-XX:MaxPermSize=${PERMSIZE}m -XX:PermSize=${PERMSIZE}m"
 JAVA_OPTS="-XX:NewRatio=3 -XX:SurvivorRatio=3 -XX:TargetSurvivorRatio=80 -XX:MaxTenuringThreshold=8 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:MaxGCPauseMillis=10 -XX:GCPauseIntervalMillis=50 -XX:MaxGCMinorPauseMillis=7 -XX:+ExplicitGCInvokesConcurrent -XX:+UseCMSInitiatingOccupancyOnly -XX:CMSInitiatingOccupancyFraction=60 -XX:+BindGCTaskThreadsToCPUs -Xnoclassgc"
 # MCPC+
-VERSION='R2.1-forge965-B228'
+VERSION='R2.1-forge965-B231'
 SERVICE="mcpc-plus-${MC_VERSION}-${VERSION}.jar"
 # Forge
 #VERSION='9.11.1.953'
