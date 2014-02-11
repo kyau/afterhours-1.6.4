@@ -1,7 +1,7 @@
 # Global configuration for PurpleIRC
 # How often we check to see if a bot is connected to the IRC server. This is in server ticks (There 20 ticks in one sec).
 conn-check-interval: 1000
-enable-ident-server: true
+enable-ident-server: false
 channel-check-interval: 100
 message-format:
   console-chat: '&8[ &e&l**&r &8] &fAfter&bHours &8- &c%MESSAGE%'

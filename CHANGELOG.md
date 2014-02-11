@@ -1,4 +1,31 @@
 # AfterHours Modpack - Changelog
+**2014-02-11T05:12:04-0500**  
+*Version Changes*
+```
+Updated Additional Buildcraft Objects to 1.0.7.560
+Updated Agriculture to 1.2.13
+Updated BiblioCraft to 1.5.5
+Updated Calclavia Core to 1.1.1.133
+Updated DimensionalDoors to 2.2.1RC1-442
+Updated Industrialcraft2 to 2.0.386
+Updated JABBA to 1.1.1
+Updated KeithyUtils to 1.2.26
+Updated LogisticsPipes to 0.7.4.dev.106
+Updated Metallurgy3 to 3.3.3.1
+Updated MineFactory Reloaded to 2.7.6B1-387
+Updated NEIAddons to 1.10.1.58
+Updated OpenBlocks to 1.2.4-snapshot-191
+Updated OpenModsLib to 0.1-snapshot-129
+Updated OpenPeripheralAddons to 0.1.0-snapshot-53
+Updated OpenPeripheralCore to 0.3.0-snapshot-55
+Updated Thaumic Exploration to 0.4.4
+Updated Universal Electricity to 3.0.1.46
+```
+*Server Updates*
+```
+Moved the Metallurgy3 worldgen to CoFH
+Retrogenerated the entire overworld and reset all side dimensions
+```
 **2014-02-08T13:18:31-0500**  
 *Version Changes*
 ```
