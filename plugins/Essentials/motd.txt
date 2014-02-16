@@ -2,3 +2,5 @@
 &8[ &e** &8]&r There are &a{ONLINE}&r player&7(&rs&7)&r online
 &8[ &e** &8]&r Use &3/help&r for more information
 &8-&r
+&8[ &e** &8]&r Important News, please type &4/news&r
+&8-&r

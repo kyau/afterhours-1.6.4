@@ -18,7 +18,7 @@
 | [Binnie Mods](http://extrabees.giffmemana.com/) | 1.8.0 |
 | [Biomes 'O Plenty](http://www.minecraftforge.net/forum/index.php/topic,13244.0.html) | 1.2.1.434 |
 | [BuildCraft](http://www.mod-buildcraft.com/) | 4.2.2 |
-| [Calclavia Core](http://universalelectricity.com/calclavia-core/) | 1.1.1.133 |
+| [Calclavia Core](http://universalelectricity.com/calclavia-core/) | 1.1.1.147 |
 | [Carpenter's Blocks](http://www.minecraftforum.net/topic/1790919-) | 2.0.2 |
 | [ChargePads](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) | 3.0.0.94 |
 | [ChickenChunks](http://www.minecraftforum.net/topic/909223-) | 1.3.3.3 |
@@ -33,11 +33,11 @@
 | [EnderStorage](http://www.minecraftforum.net/topic/909223-) | 1.4.3.5 |
 | [ExtraCells](http://www.minecraftforum.net/topic/1801643-) | 1.6.7d |
 | [ExtraTiC](http://www.minecraftforum.net/topic/1985397-) | 0.7.6 |
-| [ExtraUtilities](http://www.minecraftforum.net/topic/1776056-) | 1.0.3prerelease.1 |
+| [ExtraUtilities](http://www.minecraftforum.net/topic/1776056-) | 1.0.3a |
 | [Fancy Fences](http://www.minecraftforum.net/topic/1298016-) | 4.0.0 |
 | [FinndusFillies](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) | 1.0.0.7 |
 | [FlatSigns](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) | 1.4.0.15 |
-| [Forbidden Magic](http://www.minecraftforum.net/topic/2305054-) | pr0.22 |
+| [Forbidden Magic](http://www.minecraftforum.net/topic/2305054-) | pr0.24 |
 | [Forestry](http://forestry.sengir.net/) | 2.3.1.1 |
 | [GateCopy](http://denoflionsx.info/) | 3.1.4 |
 | [Gravitation Suite](http://forum.industrial-craft.net/index.php?page=Thread&threadID=6915) | 1.9.8  |
@@ -45,31 +45,31 @@
 | [Hardcore Ender Expansion](http://www.minecraftforum.net/topic/1066990-) | 1.3.3 |
 | [iChunUtil](http://ichun.us/mods/ichun-util/) | 2.4.0 |
 | [Iguana Tweaks](http://www.minecraftforum.net/topic/1953828-) | 1p-build10 |
-| [IndustrialCraft2](http://www.industrial-craft.net/) | 2.0.386 |
+| [IndustrialCraft2](http://www.industrial-craft.net/) | 2.0.394 |
 | [InfiniBows](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) | 1.2.0.14 |
 | [InventoryTweaks](http://www.minecraftforum.net/topic/1720872-) | 1.57-dev-b95 |
 | [JABBA](http://www.minecraftforum.net/topic/2182366-) | 1.1.1 |
 | [KeithyUtils](http://www.curse.com/mc-mods/minecraft/keithyutils) | 1.2.26 |
 | [LogisticsPipes](https://github.com/RS485/LogisticsPipes/) | 0.7.4.dev.106 |
-| [Magic Bees](http://forestry.sengir.net/forum/viewtopic.php?id=17) | 2.1.11 |
+| [Magic Bees](http://forestry.sengir.net/forum/viewtopic.php?id=17) | 2.1.12 |
 | [Mechworks](http://www.minecraftforum.net/topic/1659892-) | 0.1.3 |
 | [Metallurgy](http://www.minecraftforum.net/topic/744918-) | 3.3.3.1 |
-| [MFFS](http://calclavia.com/mffs/) | 3.6.2.16 |
-| [MineFactory Reloaded](http://www.minecraftforum.net/topic/2016680-) | 2.7.6B1-387 |
+| [MFFS](http://calclavia.com/mffs/) | 3.6.2.32 |
+| [MineFactory Reloaded](http://www.minecraftforum.net/topic/2016680-) | 2.7.6B1-398 |
 | [MineTweaker](http://www.minecraftforum.net/topic/1886008-) | 2.3.0 |
 | [Modular Power Suits](http://machinemuse.net/) | 0.10.0-92 |
 | [Modular Power Suits Addons](http://www.minecraftforum.net/topic/2287651-) | 1.6.4-884 |
 | [Mystcraft](http://binarymage.com/) | 0.10.12.01 |
 | [Natura](http://www.minecraftforum.net/topic/1753754-) | 2.1.14 |
-| [NEI Addons](http://www.minecraftforum.net/topic/1803460-) | 1.10.1.58 |
+| [NEI Addons](http://www.minecraftforum.net/topic/1803460-) | 1.10.2.60 |
 | [NEI Plugins](https://bitbucket.org/mistaqur/nei_plugins/wiki/Home) | 1.1.0.6 |
 | [NotEnoughItems](http://www.minecraftforum.net/topic/909223-) | 1.6.1.8 |
 | [Nuclear Control](http://forum.industrial-craft.net/index.php?page=Thread&threadID=5915) | 1.6.2e |
 | [Obsidian Pressure Plates](http://forum.feed-the-beast.com/threads/myrathis-mod-compendium.18505/) | 2.0.0.15 |
-| [OpenBlocks](http://www.minecraftforum.net/topic/1941514-) | 1.2.4-snapshot-191 |
-| [OpenModsLib](http://www.openperipheral.info) | 0.1-snapshot-129 |
-| [OpenPeripheralAddons](http://www.openperipheral.info) | 0.1.0-snapshot-53 |
-| [OpenPeripheralCore](http://www.openperipheral.info) | 0.3.0-snapshot-55 |
+| [OpenBlocks](http://www.minecraftforum.net/topic/1941514-) | 1.2.5-snapshot-239 |
+| [OpenModsLib](http://www.openperipheral.info) | 0.1-snapshot-136 |
+| [OpenPeripheralAddons](http://www.openperipheral.info) | 0.1.0-snapshot-56 |
+| [OpenPeripheralCore](http://www.openperipheral.info) | 0.3.0-snapshot-57 |
 | [Plugins for Forestry](http://denoflionsx.info/) | 3.2.30 |
 | [PortalGun](http://ichun.us/mods/portalgun/) | 2.0.2 |
 | [Power Converters](http://www.minecraftforum.net/topic/1695968-) | 1.6.4-39
@@ -87,6 +87,6 @@
 | [Tinkers' Construct](http://www.minecraftforum.net/topic/1659892-) | 1.5.2.6 |
 | [Translocators](http://www.minecraftforum.net/topic/909223-) | 1.1.0.13 |
 | [Twilight Forest](http://www.minecraftforum.net/topic/561673-) | 1.20.3 |
-| [Universal Electricity Core](http://universalelectricity.com/) | 3.0.1.46 |
+| [Universal Electricity Core](http://universalelectricity.com/) | 3.0.1.49 |
 | [Waila](http://www.minecraftforum.net/topic/1846244-) | 1.4.5 |
 | [Wireless Redstone](http://www.minecraftforum.net/topic/909223-) | 1.4.0.6 |

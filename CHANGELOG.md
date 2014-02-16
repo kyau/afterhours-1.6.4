@@ -1,4 +1,21 @@
 # AfterHours Modpack - Changelog
+**2014-02-16T12:39:55-0500**  
+*Version Changes*
+```
+Updated Calclavia Core to 1.1.1.147
+Updated ExtraUtilities to 1.0.3a
+Updated Forbidden Magic to pr0.24
+Updated Industrialcraft2 to 2.0.394
+Updated Magic Bees to 2.1.12
+Updated MineFactory Reloaded to 3.7.6B1-398
+Updated MFFS to 3.6.2.32
+Updated NEIAddons to 1.10.2.60
+Updated OpenBlocks to 1.2.5-snapshot-239
+Updated OpenMosLib to 0.1-snapshot-136
+Updated OpenPeripheralAddons to 0.1.0-snapshot-56
+Updated OpenPeripheralCore to 0.3.0-snapshot-57
+Updated Universal Electricity to 3.0.1.49
+```
 **2014-02-11T05:12:04-0500**  
 *Version Changes*
 ```

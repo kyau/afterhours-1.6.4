@@ -14,7 +14,7 @@ command /ver:
     description: Display modpack/server information
     executable by: players
     trigger:
-        message "&8[ &e&l**&r &8]&r After&bHours&r Modpack&7 v0.5-201402032124"
+        message "&8[ &e&l**&r &8]&r After&bHours&r Modpack&7 v0.6-201402161053"
         message "&8[ &e&l**&r &8] - &rRunning &7MCPC+ %bukkit version%"
         message " "
         message "&7 If you would like to witness the development of the AfterHours Modpack, submit a bug or if you merely want to see the plethora of changes we have made you can do so by visiting our GitHub project page."
@@ -23,7 +23,7 @@ command /version:
     description: Display modpack/server information
     executable by: players
     trigger:
-        message "&8[ &e&l**&r &8]&r After&bHours&r Modpack&7 v0.5-201402032124"
+        message "&8[ &e&l**&r &8]&r After&bHours&r Modpack&7 v0.6-201402161053"
         message "&8[ &e&l**&r &8] - &rRunning &7MCPC+ %bukkit version%"
         message " "
         message "&7 If you would like to witness the development of the AfterHours Modpack, submit a bug or if you merely want to see the plethora of changes we have made you can do so by visiting our GitHub project page."
@@ -32,7 +32,7 @@ command /about:
     description: Display modpack/server information
     executable by: players
     trigger:
-        message "&8[ &e&l**&r &8]&r After&bHours&r Modpack&7 v0.5-201402032124"
+        message "&8[ &e&l**&r &8]&r After&bHours&r Modpack&7 v0.6-201402161053"
         message "&8[ &e&l**&r &8] - &rRunning &7MCPC+ %bukkit version%"
         message " "
         message "&7 If you would like to witness the development of the AfterHours Modpack, submit a bug or if you merely want to see the plethora of changes we have made you can do so by visiting our GitHub project page."
@@ -92,6 +92,18 @@ command /www:
         message " "
         message "&8[ &e&l**&r &8]&r After&bHours&r Website"
         message "&8[ &e&l**&r &8] - &7http://kyau.net/afterhours/"
+
+command /news:
+    description: Display important news
+    executable by: players
+    trigger:
+        message " "
+        message "&8[ &e&l**&r &8]&r &4Important News!"
+        message "&8-&r"
+        message "&8[ &e&l**&r &8]&r The Quarry has been replaced with the Ender Quarry"
+        message "&8[ &e&l**&r &8]&r ChickenChunks is being replaced with MFR Chunk Loaders"
+        message "&8-&r"
+        message "&8[ &e&l**&r &8]&r &7NOTE: If you have conflicting items, speak to an OP to have then changed out for the new versions"
 
 command /help <text = "help">:
     description: Display a list of helpful commands

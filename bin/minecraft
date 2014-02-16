@@ -18,7 +18,7 @@ PERMSIZE='256'
 PERMSIZE_OPTS="-XX:MaxPermSize=${PERMSIZE}m -XX:PermSize=${PERMSIZE}m"
 JAVA_OPTS="-XX:NewRatio=3 -XX:SurvivorRatio=3 -XX:TargetSurvivorRatio=80 -XX:MaxTenuringThreshold=8 -XX:+UseParNewGC -XX:+UseConcMarkSweepGC -XX:MaxGCPauseMillis=10 -XX:GCPauseIntervalMillis=50 -XX:MaxGCMinorPauseMillis=7 -XX:+ExplicitGCInvokesConcurrent -XX:+UseCMSInitiatingOccupancyOnly -XX:CMSInitiatingOccupancyFraction=60 -XX:+BindGCTaskThreadsToCPUs -Xnoclassgc"
 # MCPC+
-VERSION='R2.1-forge965-B232'
+VERSION='R2.1-forge965-B235'
 SERVICE="mcpc-plus-${MC_VERSION}-${VERSION}.jar"
 # Forge
 #VERSION='9.11.1.953'
@@ -40,7 +40,7 @@ is_running() {
         return 1
     fi
     pid=$(cat $MC_PATH/java.pid)
-    if [ -z $pid ]; then
+    if [[ -z $pid ]]; then
         return 1
     fi
     ps -eo "%p" | grep "^\\s*$pid\\s*\$" > /dev/null
